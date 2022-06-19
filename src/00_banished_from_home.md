@@ -9,7 +9,7 @@ Banished from home.\
 Nowhere to go.\
 Our ottas are sailing, the shore out of view.\
 With the wind and our strength\
-through seas where noone yet has sailed.\
+through seas where no one yet has sailed.\
 Lead by our trust, in our god, Swafnir.
 
 Legends tell of a new world\
