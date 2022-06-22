@@ -108,9 +108,54 @@ Die Thorwaler scheinen alle durch eine Waffe getötet worden zu sein, die ein gr
 Die Atemmasken von Walkira sind jetzt eher störend.
 
 Einer der Thorwaler scheint ein Skalde gewesen zu sein.
-Er trägt einige Notizen bei sich.
+Er trug einige Notizen in einer Art Buch bei sich bei sich.
 
-> TODO: hier Notizen von Skalden einfügen.
+Das Buch enthält eine Menge unstrukturierter Notizen, so als hätte jemand all seine Gedanken in einer Art Tagebuch zu Papier gebracht.
+Neben einigen Passagen die wie Strophen von Gedichten oder Liedern wirken sind auch immer wieder Daten und Namen zu finden.
+Der Autor hat hier offenbar chronologisch Geburten und Hochzeiten notiert.
+Interessant werden die Einträge vor allem zu einem Zeitpunkt vor etwa zwei Monden…
+
+> *Vor ca. zweieinhalb Monden:*\
+  \
+  Wiedereinmal war Swafnir uns nicht hold. Der neue Stollen brachte nur wenig Ertrag und die Laune war dementsprechend sehr schlecht. Wie in den letzten Monden macht sich mehr und mehr das Gefühl breit, dass die Mine sich erschöpft hat. Keiner von uns weiß wie wir unseren Lebensunterhalt dann verdienen sollen…
+
+> *Vor ca. zwei Monden:*\
+  \
+  Auch wenn die Erträge in den letzten Wochen immer schlechter wurden, sprach Hetman Kjaskar uns Mut zu. Er ist überzeugt, dass wir es schaffen, vom spärlichen Ertrag dennoch genug Vorräte für den Winter zu erwerben. Die anderen mag er damit überzeugt haben, aber ich bin des Rechnens fähig. Das wird niemals ausreichen! Ich bete zu den Göttern und hoffe, Ögnir erlöst uns bald von seinen Streichen.
+
+> *Vor ca. einem Mond:*\
+  \
+  Swafnir sei gepriesen! Das Glück ist in unsere Hallen zurückgekehrt. Kjaskar erschien heute mit leuchtenden Augen zum Frühstück und offenbarte uns, er habe eine Vision von Swafnir erhalten und wisse wo wir graben müssen. Und wie er recht hatte – das war das reichste Erzvorkommen seit vielen Wochen. Die Ottajasko hat bis spät in die Nacht unermüdlich geackert, um alles zusammenzutragen. Vielleicht reicht es ja doch noch vor dem Winter, alle Vorräte zusammenzubekommen!
+
+> *Vor 2 Wochen:*\
+  \
+  Ich bin mir nicht mehr sicher, ob die neue Gabe unseres Hetmanns ein Segen oder ein Fluch ist. Seit diesem einen Morgen findet er zielsicher Flöz um Flöz an neuem Eisen und wir alle fragen uns, wie wir das viele Erz all die Monde übersehen konnten. Einige Männer und Frauen haben sich mir bereits anvertraut und sprechen von einem unguten oder mulmigen Gefühl wenn sie ihm in die Stollen folgen und er ohne zu zögern die Spitzhacke in den Fels treibt, um dann stets ein weiteres Vorkommen zu finden. Nicht dass wir uns beschweren, aber so viel Glück hat eigentlich niemand!
+
+> *Vor 10 Tagen:*\
+  \
+  Ich beobachte immer mehr Veränderungen in Kjaskars Verhalten. Er isst weniger, schläft nur wenige Stunden und er treibt unerbittlich weitere Gänge in den Berg so als wäre er besessen. Umso mehr Erz er freilegt, desto gereizter und fahriger wirkt er auf mich. Er vernachlässigt seine Pflichten als Hetmann mehr und mehr – und Jandra hat mir auch in einem vertraulichen Gespräch verraten, dass er seiner Pflicht als Ehemann ebenfalls schon seit Wochen nicht mehr nachgekommen ist. Arme Frau, sie muss platzen vor Energie…
+
+> *Vor 7 Tagen:*\
+  \
+  Kjaskar hat heute fast einen Mann umgebracht! Fjolnir wollte ihm lediglich etwas zu Essen reichen, aber der Hetmann war so besessen vom Fels schlagen, dass er Fjolnir fast mit der Spitzhacke zu Swafnir geschickt hatte. Er bekam einen riesigen Wutanfall und wollte Fjolnir aus der Otta verbannen. Wir konnten ihn überreden diese völlig überzogene Strafe zurückzunehmen, aber der Schaden ist nunmehr angerichtet. Die Männer fragen sich, ob Kjaskar noch das Zeug hat, unser Hetmann zu sein…
+
+> *Vor 6 Tagen:*\
+  \
+  In der Nacht ist ein fürchterlicher Sturm durch das Waskirer Hochland gezogen – ich konnte das Wetterleuchten selbst hier oben in den Grauen Bergen noch sehen. Das Knistern in der Luft war förmlich greifbar. Dies war offenbar ein schlechtes Omen, denn Kjaskar war in den letzten Stunden wie von Sinnen. Wutausbrüche, wahnvolles Brabbeln in einer mir unbekannten Sprache und haltlose Anschuldigungen, dass wir ihn alle hintergehen oder verraten wollen. Ich glaube so langsam, er wurde verflucht!\
+  \
+  Die Männer haben ihn in der Nacht gefunden, als er die Stollen öffnen und Erz graben gehen wollte. Als sie ihn aufhalten wollten, hat er sie mit der Spitzhacke angegriffen. Es hat 6 Männer und Frauen gebraucht, um ihn ruhigzustellen. Wir haben ihn nun in der alten Schmiede auf der zweiten Sohle eingesperrt. Fjolnir und Tjalva halten Wache, damit er nichts Dummes anstellt. Auf Bitte von Jandra habe ich eine Versammlung der Ottajasko einberufen und wir haben Kjaskar einstimmig als unseren Hetmann abgewählt – zumindest bis wir wissen, was ihm zugestoßen ist. Wir haben beschlossen, Thure morgen zur Runajasko nach Olport zu schicken. Vielleicht kann uns einer der Gandmadr dabei helfen, herauszufinden von was oder wem Kjaskar verflucht wurde.
+
+> *Vor 5 Tagen:*\
+  \
+  Die Ottajasko hat mich fast einstimmig zu unserem neuen Hetmann gewählt. Ich nehme diese ehrenvolle Aufgabe gerne, aber auch schweren Herzens an. Ich hoffe immer noch, dass Kjaskar erneut zu Sinnen kommt und seine alte Aufgabe wieder übernehmen kann. Ich habe angewiesen, stets zwei Wachen vor der alten Schmiede zu postieren.
+
+> *Vor 4 Tagen:*\
+  \
+  Kjaskar hat seit über einem Tag kein Essen oder Trinken mehr angerührt. Die Wachen berichten, dass er konstant mit sich selbst redet und seit wenigen Stunden hören wir fürchterliche Schmerzensschreie und Hammerschläge aus der Schmiede. Ich weiß nicht, was er da drin macht und bin mir nicht sicher, ob ich es wirklich wissen will. Ich hoffe, Thure kehrt schnell mit einem der Gandmadr aus Olport zurück!
+
+> *Vor 3 Tagen:*\
+  \
+  Die Wachen sind heute Morgen nicht zum Wechsel aus der Mine herausgekommen. Ich habe befohlen, den Eingang zuzusperren.Ich befürchte leider das schlimmste. Wir rüsten uns nun alle aus und werden unsere eigene Mine gleich gemeinsam betreten. Womit haben wir dieses Unglück nur verdient? Aber unsere Ottajasko ist stark und ich hoffe dass wir alle gemeinsam wieder Herr der Lage werden…
 
 Hinter dem toten Skalen befindet sich eine dicke eiserne Tür.
 Hinter der hören wir immer wieder Hammergeräusche.
