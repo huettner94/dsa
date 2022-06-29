@@ -137,3 +137,141 @@ Raska hat zudem spitze Ohren.
 Von Edgrim erfahren wir weiter, dass der Sumpf wohl seit 12 Jahren so blutrünstig ist.
 Zu diesem Zeitpunkt opferten die Thorstörhöfer einen Alf dem Moor.
 Da Raska 11 Jahre alt ist, könnte der Alf ihr Vater sein.
+
+Wir entscheiden uns in der Hütte zu übernachten, da der Sturm schlimmer wird.
+Der Mond scheint hell heute Nacht.
+
+Raska wird irgendwie Apathisch und konzertiert sich auf irgendetwas.
+Auf Edgrims Stirn erscheint die Rune der geflügelten Schlange.
+
+Irgendetwas kratzt an den Wänden.
+Mit einem Schrei erwacht Raska und die Rune verschwindet von Edgrims Stirn.
+Draußen sind fünf Guhle.
+Sie reisen die Wände der Hütte ein und sie versuchen die Hütte umzuwerfen.
+Wir erschlagen einige der Guhle und schaffen es geradeso rechtzeitig aus der Hütte hinaus.
+Draußen versuchen wir uns so schnell wie möglich von der Hütte zu entfernen.
+
+Kaum sind wir einige Meter entfernt gräbt sich ein sehr großer Guhl aus dem Sumpf.
+Er scheint spitzte Ohren zu haben, fast wie bei einem Alf.
+Nichts wie weg von hier.
+
+Jedoch ist der große Guhl schneller als wir, zumindest außer unseren Kriegern.
+Edgrim entscheidet sich sich kampflos zu Opfern um uns, oder eher Raska, Zeit für eine Flucht zu erkaufen.
+Sein heldenhafter Tod liefert uns einen geringen Vorsprung.
+
+Orik und Brandt haben jedoch eine deutlich höhere Ausdauer wie der Rest von uns.
+Um zu verhindern, dass wir all von dem Guhl gefressen werden, beschließen wir uns zu trennen.
+Orik und Brand nehmen Raska und (unfreiwillig) Yore mit und trennen sich von uns anderen.
+Sie laufen Richtung Südosten, während wir uns nach Südwesten halten.
+Seltsamerweise scheint der Guhl verwirrt, wir hätten erwartet, dass er Raska verfolgt.
+Nach einer Weile tut er das dann aber trotzdem.
+
+Nach einer Verfolgungsjagd über fünfeinhalb Stunden schaffen wir es den Guhl abzuhängen.
+Beide Gruppen wenden sich Richtung Thorstörhof und nach einigen weiteren Stunden treffen wir uns wieder.
+
+Raska ist in der Zwischenzeit erwacht.
+Ragna überredet sie uns ihr Amulett zu zeigen.
+Es entspricht genau der fehlenden Amulett-hälfte die wir gefunden haben.
+Wir fügen die beiden Hälften zusammen, sie fangen an golden zu leuchten und verbinden sich.
+In den Ferne hören wir den Schrei des Alfen-Guhls.
+Er scheint das verbundene Amulett gefühlt zu haben.
+Wir eilen weiter Richtung Thorstörhof und schieden einen Plan wie wir die Bewohner zwingen uns zu helfen.
+Außerdem müssen wir damit verhindern, dass sie versuchen Raska zu opfern.
+Brand eilt voraus um zuerst anzukommen.
+
+Als wir einige Minuten nach Brand am Thorstörhof eintreffen sheen wir von weitem, dass die Tore zugezogen wurden.
+Von innen hören wir viele aufgebrachte Stimmen, die scheinbar über irgendetwas lautstark diskutieren.
+Unserem Plan folgend versuchen wir uns am Rand des Dorfes über die Mauer zu schleichen, da wir nicht sicher sind ob wir willkommen sind.
+
+Zu unserem Glück wurde der Dorfwall durch den Sturm beschädigt und wir können uns an einigen Balken vorbei zwängen.
+Leider ist Fjolnir zu dick und muss doch versuchen durch das Tor ins Dorf zu bekommen.
+Anhand der lauten Rufe können wir vermuten, dass er von den Torwachen gesehen und ins Dorf gebracht wurde.
+Die Diskussion und das Auftauchen Fjolnirs bieten uns die Ablenkung um uns ungesehen hinter dem Langhaus zu verstecken.
+
+Walkira und ich gehen um das Langhaus herum um uns der Diskussion anzuschließen.
+Orik und Ragna bleiben mit Raska und Yore hinter dem Langhaus zurück.
+Kaum treten wir hinter dem Langhaus hervor hören wir in der Ferne den lauten Schrei des Alfen-Guhls.
+Sofort verstummen alle Diskussionen und der Hetmann entscheidet, dass sich die Ottajasko zum Kampf rüstet.
+
+Brand scheint die Meinungen im Dorf gespalten zu haben.
+Auf der einen Seite stehen der Hetmann und Raskas offizieller Vater.
+Auf der anderen Seite Brandt und Raskas Mutter Wulflind.
+Die Dorfgemeinschaft scheint sich gleichmäßig auf beide Seiten aufgeteilt zu haben.
+Wie auch immer sie sich nach der Schlacht entscheiden werden, wir haben Raska geschworen sie zu schützen.
+Sie wird niemals geopfert werden.
+
+Da der Wall des Dorfes nicht mehr ausrichtend stabil ist um einen Angriff abzuwehren entscheiden wir uns das Langhaus zu verbarrikadieren.
+Brand und Orik stellen sich mit den anderen Kriegern vor das Langhaus.
+Wir anderen bereiten uns in der Zwischenzeit im inneren auf die Versorgung der Verletzten vor und achten auf Raska und Yore.
+
+Walkira führt nebenbei eine Unterhaltung mit Wulflind.
+Sie bestätigt, dass Sinjaron, der Alf der vor 12 Jahren im Thorstörhof war, Raskas Vater ist.
+Er stellte auch das Amulett her, es sollte beide an ihre gemeinsame Zeit erinnern.
+Die anderen Thorstörhöfer reagierten jedoch sehr schlecht auf Sinjaron und entschließen ihn als das nächste Opfer des Moors zu nehmen.
+Wulflind ist alleine nicht in der Lage sie von diesem Entschluss abzubringen.
+Seit diesem Opfer ist das Moor wohl blutrünstiger und verlangt alle paar Wochen nach einem weiteren Toten.
+Als vor einigen Tagen die nächste Opferung anstand fiel das Los auf Raska.
+Wulflind versucht sich diese Entscheidung schönzureden.
+Raska war angeblich schon immer eine Außenseiterin.
+Dennoch ist sie mit dem Opfer nicht einverstanden.
+Sie hängt Raska die Hälfte des Amulettes um, in der Hoffnung, dass der Geist Sinjarons sie beschützt.
+Wie es scheint hat die Idee funktioniert.
+Raska kehrte am Morgen nach der Opferung zurück.
+Wulflinds Mann und der Hetmann sperrten sie jedoch ein um sie am nächsten Abend erneut zu opfern.
+Zu diesem Zeitpunkt wird sie jedoch von Edgrim gerettet und wir treffen einige Stunden später ein und werden gebeten Raska zu suchen.
+
+Nach einigen Minuten Stille von außen hören wir den Ansturm einer gigantischen Menge an Guhlen.
+Sie sind vermutlich die Vorhut von Sinjaron.
+Wir haben Wulflind das ganze Amulett gegeben.
+Vielleicht kann sie mit seiner Hilfe den Geist Sinjarons erreichen und ihn befreien.
+Wulflind geht ebenfalls nach außen um das Langhaus und ihre Kinder zu verteidigen.
+
+Im inneren des Langhauses hören wir die Guhl an allen Wänden kratzen.
+Von außen dringen Kriegsschreie unserer Kämpfer und die Todesgeräusche der Guhle durch die Balken.
+
+Nach einigen Minuten scheinen Sich die Guhl durch eine Wand des Langhauses geschlagen zu haben.
+Ein Haufen von Thorstörhöfern eilt herbei um die Bresche zu verbarrikadieren.
+
+Einige weitere Momente später hören wir den lauten Schrei eines sehr nahen Guhls - Sinjaron ist wohl eingetroffen.
+Brandt stürmt zur Tür herein, mit Guhlblut bespritzt.
+Er eilt zu Raska und wiederholt seinen Schwur sie zu schützen.
+Er beginnt aus dem Bänken des Hauses eine Barriere für die Verteidigung zu errichten.
+Nur für Raska, Yore, Ragna und sich.
+
+Von draußen wir es nach und nach ruhiger.
+Seit Sinjaron erschienen ist, scheinen keine weiteren Guhle nachzukommen.
+Wir hören Wulflind lauten Ruf "SINJARON".
+Er hält inne und fokussiert nur sie.
+
+Eine übereifrige Thorstörhöferin nutzt die Ablenkung um Sinjaron anzugreifen.
+Er verliert den Blickkontakt zu Wulflind und verteidigt sich.
+Nach lauten Rufen von Wulflind zieht sich die Thorstörhöferin zurück udn überlasst Sinjaron vollständig Wulflind.
+
+Wulflind nähert sich ihm.
+Zeigt ihm das Amulett, dass er für sei gemacht aht.
+Sinjaron streckt ihr seinen Arm entgegen und berührt sie.
+Die Kämpfe scheinen still zu stehen.
+Eine überirdische magische Melodie erfüllt die Luft und ist auch im Langhaus zu hören.
+Unter Sinjarons Guhlhaut lassen sich kurz die echten Züge des Alf erahnen.
+Er stürzt langsam nach hinten und landet im Schlamm.
+
+Kaum ist ihr Meister vernichtet flüchten die Guhle in völliger Panik.
+Wulflind kniet weinend vor Sinjarons Überresten.
+
+Über den nächsten Tag hinweg räumen die Thorstörhöfer die Schäden auf und bestatten ihre fünf Toten.
+Aufgrund der direkten Konfrontation mit ihren vergangen Entscheidungen verbietet der Hetmann ab sofort alle weiteren Opferungen.
+Ragna eröffnet Raska, dass sie vermutlich magisch begabt ist.
+Raska ist sehr erleichtert, da sie dachte sie sei verflucht.
+Ihre Eltern stimmen zu, dass sie zur Magierakademie in Olport gehen sollte.
+Sie bitten uns daraufhin sie dorthin zu begleiten.
+Da Ragna Raska bereits ins Herz geschlossen zu haben scheint stimmen wir sofort zu.
+Zunächst müssen wir jedoch gemeinsam nach Waskir um unserem Hetman zu bereiten.
+
+Als wir am nächsten Morgen aufbrechen verabschiedet sich Raska tränenreich von Yore und Wulflind.
+Unser Weg nach Waskir ist deutlich angenehmer als in der anderen Richtung.
+
+Dort angekommen berichten die anderen unserem Hetmann was passiert ist.
+Ich erkranke jedoch am Schlachtfeldfieber und überlebe die nächsten Tage nur dank Walkira mit etwas Unterstützung von Isgrain.
+Ihnen schulde ich mein Leben.
+
+Nach einer Woche Rast und Erholung brechen wir Richtung Olport auf um Raska zur Magierakademie zu bringen.
