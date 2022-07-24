@@ -8,3 +8,4 @@
 
 # 02 Schläge in der Tiefe
 - [Schläge in der Tiefe](./02_schlaege_in_der_tiefe.md)
+- [Grey Mountains Cold](./02_grey_mountains_cold.md)
