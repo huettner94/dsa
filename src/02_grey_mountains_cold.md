@@ -45,4 +45,4 @@ with loads of ore  from daemon old\
 with all them dead  and some have fled\
 I stay to guard  alone our hold
 
-> Melodie nach: [Misty Mountains Cold](https://www.youtube.com/watch?v=BEm0AjTbsac)
+> Melodie nach: [Misty Mountains Cold](https://www.youtube.com/watch?v=y5U8BrAXO50)
