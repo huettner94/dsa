@@ -63,3 +63,5 @@ Oh, Swafnir you white whale\
 Oh, Swafnir you white whale, oh\
 Throw a boat at the whaler\
 Let all hunters get pale
+
+> Melodie nach: [Toss a Coin to Your Witcher](https://www.youtube.com/watch?v=GwdQliEv6Z0)
