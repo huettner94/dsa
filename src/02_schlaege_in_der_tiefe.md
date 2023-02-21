@@ -271,4 +271,4 @@ Wenige Minuten später werden alle drei von einer Gewitterwolke abgeholt und fli
 Wir selbst beschließen ebenfalls nach Olport aufzubrechen, wenn auch auf normalem Weg.
 Zum einen möchten wir von dort Nachricht nach Storsjen senden, dass diese vom Schicksal der Aldiasottajasko erfahren.
 Zum anderen hat uns Kjetil angeboten und noch etwas mehr über Erzdämonen und was gestern passiert ist zu erzählen.
-Und natürlich möchten wir Raska in ihrer neuen Schule besuchen. 
+Und natürlich möchten wir Raska in ihrer neuen Schule besuchen.
