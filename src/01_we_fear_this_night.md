@@ -11,7 +11,7 @@ Hanging from his daughters neck...\
 as the next sacrifice....
 
 We fear this night. Haunted by our past.\
-Build our foe form despair and weakness.
+Build our foe from despair and weakness.
 
 And he could never hurt her.\
 Set her free with the first light of dawn.\
@@ -26,9 +26,9 @@ Followed by the angry Alf...\
 Seeking to tear it down....
 
 We fear this night. Haunted by our past.\
-Build our foe form despair and weakness.
+Build our foe from despair and weakness.
 
-And though the Alfs fac's filled with Anger.\
+And though the Alfs face's filled with Anger.\
 Wulflind, her mom, rush's out and takes him down.
 
 We feared this night. Overcame our past.\

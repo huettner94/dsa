@@ -27,6 +27,13 @@ But we won't forget\
 nor will we regret\
 our challenge to Hranngar.
 
+Banished from home.\
+Nowhere to go.\
+Our ottas are sailing, the shore out of view.\
+With the wind and our strength\
+through seas where no one yet has sailed.\
+Lead by our trust, in our god, Swafnir.
+
 In the far we see the shore\
 where our home now will be.\
 So we set sail, to win, this new land.
