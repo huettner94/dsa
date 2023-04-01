@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Godsögnsvanir - Seewölfe Ottajasko</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="00_banished_from_home.html">Banished from Home</a></li><li class="chapter-item expanded affix "><li class="part-title">01 Das Sumpfopfer</li><li class="chapter-item expanded "><a href="01_sumpfopfer.html"><strong aria-hidden="true">1.</strong> Das Sumpfopfer</a></li><li class="chapter-item expanded "><a href="01_we_fear_this_night.html"><strong aria-hidden="true">2.</strong> We fear this Night</a></li><li class="chapter-item expanded affix "><li class="part-title">02 Schläge in der Tiefe</li><li class="chapter-item expanded "><a href="02_schlaege_in_der_tiefe.html"><strong aria-hidden="true">3.</strong> Schläge in der Tiefe</a></li><li class="chapter-item expanded "><a href="02_grey_mountains_cold.html"><strong aria-hidden="true">4.</strong> Grey Mountains Cold</a></li><li class="chapter-item expanded affix "><li class="part-title">03 Godsögnsvanir</li><li class="chapter-item expanded "><a href="03_godsoegnsvanir.html" class="active"><strong aria-hidden="true">5.</strong> Godsögnsvanir</a></li><li class="chapter-item expanded "><a href="03_throw_a_boat_at_the_whaler.html"><strong aria-hidden="true">6.</strong> Throw a boat at the whaler</a></li><li class="chapter-item expanded "><a href="03_bei_den_sturmvoegeln.html"><strong aria-hidden="true">7.</strong> Bei den Sturmvögeln</a></li><li class="chapter-item expanded "><a href="03_rescue_us.html"><strong aria-hidden="true">8.</strong> Rescue us</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Seewölfe Ottajasko</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="godsögnsvanir"><a class="header" href="#godsögnsvanir">Godsögnsvanir</a></h1>
+<p>Nach einer halbwegs gemütlichen übernachtung im kalten und leeren Gasthaus von Aldiasgard brechen wir Richtung Olport auf.
+Außer uns ist auf den Wegen niemand unterwegs und wir reisen einige Tage in Ruhe.
+Die größte Aufregung liefert uns ein Wasserfall in der nähe des kleinen Ortes Nadrafell.
+Endlich können wir wieder mal etwas sauberer werden.</p>
+<p>Am Mittag des zweiten Tages können wir endlich Olport in der ferne sehen.
+Schon von weitem ist die Runajasko auf den Klippen gut zu erkennen.
+Als wir gegen Nachmittag langsam näher kommen kann man auch den großen Swafnir und Effert Tempel gut aus der ferne erkennen.</p>
+<p>Wir fragen uns zu einem Gasthof durch und die meisten nicht einheimischen treffen sich wohl in Selmas Gasthof.
+In dem Langhaus sieht es schon beim Eintreffen nach gutem Essen und guten Geschichten aus.
+Der Suppe auf dem großen Feuer sieht so aus, als wäre sie schon Generationen am Kochen und wird nur immer wieder aufgefüllt.</p>
+<p>Wir lauschen Geschichten über Hetmann Hüggelig und Torstor Om.
+Währenddessen tauscht Fjolnir mit dem Koch Isleif Salzarelen gegen einige unserer Gewürze.</p>
+<p>Uns fallen einige Personen mit grauen Spitzhüten auf, die nach kurzer Zeit aus dem Gasthof gehen.
+Sie wirken wichtig, aber auch als kämen sie von weit her.
+Orik und ich folgen ihnen nach draußen und fragen Sie woher sie kommen.
+Sie sagen sie kämen aus dem Süden und wirken sehr mürrisch, dass wir sie unterbrochen hätten.
+Da sie sich wohl nicht weiter mit uns unterhalten wollen, gehen wir zurück in den Gasthof.</p>
+<p>Fjolnir unterhält sich währenddessen mit einem Nobardischen Händler.
+Nach einiger Verhandlung ersteht Fjolnir etwas Dörrfleisch im Tausch gegen eine Flasche Schnaps.</p>
+<p>Nach unserer Stärkung machen wir uns auf Richtung Runajasko, schauen aber auf dem Weg erst noch beim Swafnirtempel vorbei.
+Es ist ein großes, prächtiges Gebäude.
+Im inneren hängt direkt unter dem Dach der Kopf der Seeschlange aus dem Jurgalied.
+Wir unterhalten uns mit Starkhard Erwiederer, dem Swiftnirgeweiten des Tempels.
+Nachdem wir ihm die Geschichte von Raska erzählt haben beten wir zusammen.</p>
+<p>Draußen machen wir uns auf den steilen Weg hoch zur Runajasko.
+Vor dem Tor treffen wir wieder auf die Personen mit grauen Spitzhüten.
+Ihnen gehört wohl das Zelt, das direkt vor dem Tor aufgeschlagen wurde.
+Sie scheinen Einlass zur Runajasko zu wollen, jedoch werden sie von den Torwächtern abgewiesen.
+Es wirkt so, als ob sie schon häufiger Einlass begehrt haben.
+Die Torwachen lassen uns jedoch hinein und führen uns zu Meister Kjetil.</p>
+<p>In der Magierhalla sitzt Kjetil zusammen mit dem Hetmann der Runajasko, Haldrunir Windweiser, und einem Meistari, Bjarni Ingaldsson, am Feuer.
+Wir werden begrüßt und dürfen uns mit ans feuer setzen.
+Kjetil berichtet uns, das Raska bei den andernen Skolaren in deren Halle ist.
+Auf Nachfrage kann er auch berichten, dass die Grauhüte wohl schon seit 6 Jahren nach Einlass fragen.
+Sie gehören zu einer Magiergilde und soll wohl die Geheimnisse der Runajasko herausfinden.
+Kjetil kann uns ebenfalls berichten, dass er nochmal in Aldiasgard war und eindeutig feststellen konnte, dass Kjaskar tatsächlich von Agrimoth besessen war.
+Kjetil lädt uns ein ein der Runajasko zu verweilen und an den Unterrichten teilzunehmen.</p>
+<p>Nach der Unterhaltung begeben wir uns zur Halle der Skolaren und treffen Raska wieder.
+Die ist ganz aufgedreht obwohl erst wenige Tage vergangen sind.
+Begeistert berichtet sie vom fliegen mit der Wolke und dem magischen Alltag in der Runajasko.</p>
+<p>Wir beschließen uns schlafen zu legen und am nächsten Morgen Kjetils Unterricht zu besuchen.
+Fjolnir kommt sehr übermüdet zum Unterricht, er hat den Bäckern beim Frühstück geholfen.
+In seinem Unterricht zeigt Kjetil das Ritual zur Entschwörung von Dämonen.
+Es ist das selbe Ritual, das wir bereits in Aldiasgard gesehen haben.
+Die Skolari müssen danach das Ritual üben und wir haben Zeit den anderen beim Zaubern zuzusehen.</p>
+<p>Ein Schrei unterbricht jedoch die Konzentration der Schüler.
+Er scheint aus Richtung des Übungsplatzes gekommen zu sein.
+Alle rennen dorthin.</p>
+<p>Wo gestern noch ein freies Feld für Übungskämpfe war, steht jetzt ein riesiger Baum.
+Die Klasse hat wohl einen Elfenzauber geübt, mit dem Pflanzen schneller wachsen können.
+Da der Baum im weg ist, muss er gefällt werden.
+Dazu beschwören die Schüler einige Elementare, die anfangen den Baum auszugraben.
+Wir helfen mit unseren Äxten beim Fällen mit.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="02_grey_mountains_cold.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="03_throw_a_boat_at_the_whaler.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="02_grey_mountains_cold.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="03_throw_a_boat_at_the_whaler.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

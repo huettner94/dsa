@@ -1,0 +1,438 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Schläge in der Tiefe - Seewölfe Ottajasko</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="00_banished_from_home.html">Banished from Home</a></li><li class="chapter-item expanded affix "><li class="part-title">01 Das Sumpfopfer</li><li class="chapter-item expanded "><a href="01_sumpfopfer.html"><strong aria-hidden="true">1.</strong> Das Sumpfopfer</a></li><li class="chapter-item expanded "><a href="01_we_fear_this_night.html"><strong aria-hidden="true">2.</strong> We fear this Night</a></li><li class="chapter-item expanded affix "><li class="part-title">02 Schläge in der Tiefe</li><li class="chapter-item expanded "><a href="02_schlaege_in_der_tiefe.html" class="active"><strong aria-hidden="true">3.</strong> Schläge in der Tiefe</a></li><li class="chapter-item expanded "><a href="02_grey_mountains_cold.html"><strong aria-hidden="true">4.</strong> Grey Mountains Cold</a></li><li class="chapter-item expanded affix "><li class="part-title">03 Godsögnsvanir</li><li class="chapter-item expanded "><a href="03_godsoegnsvanir.html"><strong aria-hidden="true">5.</strong> Godsögnsvanir</a></li><li class="chapter-item expanded "><a href="03_throw_a_boat_at_the_whaler.html"><strong aria-hidden="true">6.</strong> Throw a boat at the whaler</a></li><li class="chapter-item expanded "><a href="03_bei_den_sturmvoegeln.html"><strong aria-hidden="true">7.</strong> Bei den Sturmvögeln</a></li><li class="chapter-item expanded "><a href="03_rescue_us.html"><strong aria-hidden="true">8.</strong> Rescue us</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Seewölfe Ottajasko</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="schläge-in-der-tiefe"><a class="header" href="#schläge-in-der-tiefe">Schläge in der Tiefe</a></h1>
+<p>Wir brechen auf Richtung Olport.
+Dazu reisen wir über die grauen Berge, da der Seeweg mehrere Wochen dauern würde.
+Die Wege sind nahezu ungenutzt, nur alle paar Stunden sehen wir einen Händler.
+Das erste mal auf unserer Reise müssen wir im Freien übernachten.
+Wir entscheiden uns nacheinander Wache zu halten.
+Der Mond scheint hell heute Nacht.</p>
+<p>Fjolnir schläft während seiner Nachtwache ein, und wir schlafen bis zum Morgen.
+Zum Glück passiert nichts schlimmes.
+Nach einer kleinen Streiterei deswegen brechen wir wieder auf.
+Der nächste Ort auf unserem weg wird Storsjen sein.</p>
+<p>Am Abend treffen wir in Storsjen ein.
+Dort lebt die Sumpfzwinger Ottajasko in einem einzelnen Langhaus.
+Hetfrau Walkira begrüßt uns freundlich.
+Die Ottajasko betreibt Handel mit der Aldiasottajasko, die eine Eisenmiene in den grauen Bergen betreiben.
+Sie haben jedoch schon seit einigen Tagen keine Eisenlieferung bekommen.
+Da die Händler sonst immer sehr pünktlich ankommen, macht sie sich sorgen und bittet uns um Hilfe.
+Da die Aldiasottajasko nur wenige Minuten von unserem geplanten Weg entfernt liegt bieten wir an nach dem rechten zu sehen.
+Sie bittet uns auch dem Hetmann Kjaskar Rangwaldson auszurichten, dass er ihr noch ein Fass Met schulde.</p>
+<p>Als wir am Abend am Feuer sitzen werde ich gebeten ein Lied zu singen.
+Da wir uns nah am Seufzermoos befinden beschließe ich von unserem letzten Abenteuer zu berichten.
+Nach dem Lied herrscht spontan stille und alle legen sich schnell schlafen.
+Ich habe wohl einen wunden Punkt getroffen.</p>
+<p>Am nächsten Morgen brechen wir Richtung Alderberg auf, der letzte Ort vor dem Grauberger Höhenweg.
+Die Sumpfzwinger geben uns freundlicherweise noch einige gute Bergstiefel mit.</p>
+<p>Wir übernachten wieder im Freien und am nächsten Morgen wird der Weg langsam steiler.
+Immer öfter müssen wir auf Fjolnir warten.
+Der Weg ist durch den Sturm etwas mitgenommen und teilweise von einer Matschlawiene überschwemmt, aber mit etwas klettern ist er weiter begehbar.</p>
+<p>Gegen Nachmittag erreichen wir Alderberg.
+Es ist ähnlich klein wie Storsjen.
+Auf Nachfrage berichten sie ebenfalls seit einigen Tagen keine Händler der Aldiasottajasko gesehen zu haben.</p>
+<p>Am nächsten Tag wird der Weg immer steiler.
+Bis zum Nachmittag erreichen wir jedoch die Passhöhe und können die Aussicht hinter uns genießen.
+Ein großer Teil der Landschaft hinter uns wird jedoch vom Seufzermoos und seinem Zentralen See eingenommen.
+Der See ist tiefblau und spiegelglatt, trotz des Windes.</p>
+<p>Als wir uns wieder auf den Weg machen treffen wir kurz darauf auf eine Weggabelung Richtung Aldiasgard.
+Der Weg dorthin ist merklich schlechter und schon zu Fuß schwer zu begehen.
+Die Händler brauchen definitiv viel Kraft um die Eisenkarren dort entlang zu bekommen.</p>
+<p>Als wir Aldiasgard erreichen dämmert es bereits.
+Wir sehen in dem Dorf keinen Thorwaller, keinen Rauch und auch überhaupt kein Licht.
+Irgendetwas stimmt hier nicht.</p>
+<p>In dem großen Langhaus ist ebenfalls keiner.
+Das Feuer ist schon lange erloschen und halb aufgegessenes Essen schimmelt bereits leicht.
+Alle Waffen und Rüstungen sind jedoch verschwunden.</p>
+<p>In der Schmiede des Ortes finden wir nur Erz und Kohle.
+Brand knackt das Schloss eines Lagerhauses, aber auch hier gibt es nichts was die leere des Ortes erklären könnte.
+Die einzige Möglichkeit ist das alle in die Miene gegangen sind.</p>
+<p>Vor dem Tor der Mine warten wir und lauschen gespannt.
+Alle paar Minuten hören wir einen dumpfen Schlag aus der Tiefe.
+Da wir keine offensichtliche Gefahr erkennen öffnen wir das Tor und gehen hinein.
+Raska wartet mit Orik draußen, da sind Angst vor der Mine hat.</p>
+<p>Ein Hauptgang der Mine führt immer geradeaus in die Tiefe.
+Immer wieder stoßen wir auf Seitengänge, die gewunden vermutlich einer Eisenader gefolgt sind.
+Nach ungefähr hundert Schritt finden wir eine Abzweigung mit größeren Gängen.
+Wir nähern uns vorsichtig, können jedoch nichts erkennen, da der Eingang der Gänge mit Ledervorhängen geschlossen sind.</p>
+<p>Hinter einem der Ledervorhänge finden wie einen Aufenthaltsraum.
+Dieser wirkt, wie das Langhaus, als wäre er schnell verlassen worden.
+Er ist verbunden mit einem Lagerraum an der Seite der einige Grabwerkzeuge enthält.
+Zudem steht dort ein Fass Lampenöl.
+An der Wand sind Haken für Sturmlaternen, allerdings ist keine dort aufgehängt.</p>
+<p>Fjolnir und Brand finden ein Fass Met im Aufenthaltsraum.
+Als sie sich jedoch Met zapfen wollen schließt sich der Zapfhahn nach einigen Sekunden von selbst wieder.
+Sie versuchen herauszufinden, warum sich der Zapfhahn von selbst bewegt.
+Als sie dazu das Fass aufstellen wollen bekommt brand einige Liter Met ins Gesicht gespritzt.
+Irgendwie scheint der Zapfhahn magisch zu sein, da wir jedoch die Aldiasgarder finden wollen brechen wir wieder auf.
+Das Fass können wir uns auch später noch ansehen.</p>
+<p>Wir folgen dem Hauptweg weiter in die Tiefe und erreichen nach kurzer Zeit einen weiteren Seitengang der wohl einer Erzader gefolgt ist.
+Jedoch stinkt es aus diesem Seitengang bestialisch nach Verwesung.
+Wir biegen in den Seitengang ab um herauszufinden was passiert ist.
+Fjolnir will alleine davor warten, da er Angst hat stecken zu bleiben.</p>
+<p>Der Seitengang hat einige Abzweigungen und wir folgen dem Weg des größten Gestanks.
+Von hinten hören wir Fjolnir leise mit sich selbst reden.
+Nach einigen Abzweigungen bemerken wir das der Gestank vor uns immer stärker wird.</p>
+<p>Kurz bevor der Gang sich vor uns weiter hören wir von hinten ein stark gedämpftes &quot;Ich gehe mal in die Tiefe&quot;.
+Fjolnir scheint irgendetwas komisches vor zu haben.
+Schnell drehen wir uns um und rennen den Weg zurück.
+Zum Glück ist er nicht der schnellste und wir erreichen ihn bevor er weit gekommen ist.
+Er wirkt etwas verwirrt und berichtet, dass er irgendwie glaubt dort unten würde er das Rätsel hier lösen können.
+Jedoch hat er gleichzeitig große Angst vor dem was unten in der Tiefe sein könnte.</p>
+<p>Wir gehen nochmals in den Seitengang und nehmen Fjolnir zwischen uns.
+Immer wieder zucken einzelne von uns zusammen und behaupten zum Beispiel, dass die Wände des Ganges pulsieren würden.
+Als der Gestank immer unerträglicher wird bastelt uns Walkira eine Atemmaske, sie hält zumindest ein wenig Gestank ab.</p>
+<p>Kurz darauf öffnet sich der Gang zu einer kleinen Höhle.
+In einem Ende der Höhle liegt ein kleiner See und wir sehen den Grund für den Gestank und warum das Dort oben so leer war.
+Um die 30 Thorwaler liegen tot und teilweise verstümmelt in und um den See.
+Die Thorwaler scheinen alle durch eine Waffe getötet worden zu sein, die ein großes Loch in ihnen hinterlassen hat.
+Die Atemmasken von Walkira sind jetzt eher störend.</p>
+<p>Einer der Thorwaler scheint ein Skalde gewesen zu sein.
+Er trug einige Notizen in einer Art Buch bei sich bei sich.</p>
+<p>Das Buch enthält eine Menge unstrukturierter Notizen, so als hätte jemand all seine Gedanken in einer Art Tagebuch zu Papier gebracht.
+Neben einigen Passagen die wie Strophen von Gedichten oder Liedern wirken sind auch immer wieder Daten und Namen zu finden.
+Der Autor hat hier offenbar chronologisch Geburten und Hochzeiten notiert.
+Interessant werden die Einträge vor allem zu einem Zeitpunkt vor etwa zwei Monden…</p>
+<blockquote>
+<p><em>Vor ca. zweieinhalb Monden:</em><br />
+<br />
+Wiedereinmal war Swafnir uns nicht hold. Der neue Stollen brachte nur wenig Ertrag und die Laune war dementsprechend sehr schlecht. Wie in den letzten Monden macht sich mehr und mehr das Gefühl breit, dass die Mine sich erschöpft hat. Keiner von uns weiß wie wir unseren Lebensunterhalt dann verdienen sollen…</p>
+</blockquote>
+<blockquote>
+<p><em>Vor ca. zwei Monden:</em><br />
+<br />
+Auch wenn die Erträge in den letzten Wochen immer schlechter wurden, sprach Hetman Kjaskar uns Mut zu. Er ist überzeugt, dass wir es schaffen, vom spärlichen Ertrag dennoch genug Vorräte für den Winter zu erwerben. Die anderen mag er damit überzeugt haben, aber ich bin des Rechnens fähig. Das wird niemals ausreichen! Ich bete zu den Göttern und hoffe, Ögnir erlöst uns bald von seinen Streichen.</p>
+</blockquote>
+<blockquote>
+<p><em>Vor ca. einem Mond:</em><br />
+<br />
+Swafnir sei gepriesen! Das Glück ist in unsere Hallen zurückgekehrt. Kjaskar erschien heute mit leuchtenden Augen zum Frühstück und offenbarte uns, er habe eine Vision von Swafnir erhalten und wisse wo wir graben müssen. Und wie er recht hatte – das war das reichste Erzvorkommen seit vielen Wochen. Die Ottajasko hat bis spät in die Nacht unermüdlich geackert, um alles zusammenzutragen. Vielleicht reicht es ja doch noch vor dem Winter, alle Vorräte zusammenzubekommen!</p>
+</blockquote>
+<blockquote>
+<p><em>Vor 2 Wochen:</em><br />
+<br />
+Ich bin mir nicht mehr sicher, ob die neue Gabe unseres Hetmanns ein Segen oder ein Fluch ist. Seit diesem einen Morgen findet er zielsicher Flöz um Flöz an neuem Eisen und wir alle fragen uns, wie wir das viele Erz all die Monde übersehen konnten. Einige Männer und Frauen haben sich mir bereits anvertraut und sprechen von einem unguten oder mulmigen Gefühl wenn sie ihm in die Stollen folgen und er ohne zu zögern die Spitzhacke in den Fels treibt, um dann stets ein weiteres Vorkommen zu finden. Nicht dass wir uns beschweren, aber so viel Glück hat eigentlich niemand!</p>
+</blockquote>
+<blockquote>
+<p><em>Vor 10 Tagen:</em><br />
+<br />
+Ich beobachte immer mehr Veränderungen in Kjaskars Verhalten. Er isst weniger, schläft nur wenige Stunden und er treibt unerbittlich weitere Gänge in den Berg so als wäre er besessen. Umso mehr Erz er freilegt, desto gereizter und fahriger wirkt er auf mich. Er vernachlässigt seine Pflichten als Hetmann mehr und mehr – und Jandra hat mir auch in einem vertraulichen Gespräch verraten, dass er seiner Pflicht als Ehemann ebenfalls schon seit Wochen nicht mehr nachgekommen ist. Arme Frau, sie muss platzen vor Energie…</p>
+</blockquote>
+<blockquote>
+<p><em>Vor 7 Tagen:</em><br />
+<br />
+Kjaskar hat heute fast einen Mann umgebracht! Fjolnir wollte ihm lediglich etwas zu Essen reichen, aber der Hetmann war so besessen vom Fels schlagen, dass er Fjolnir fast mit der Spitzhacke zu Swafnir geschickt hatte. Er bekam einen riesigen Wutanfall und wollte Fjolnir aus der Otta verbannen. Wir konnten ihn überreden diese völlig überzogene Strafe zurückzunehmen, aber der Schaden ist nunmehr angerichtet. Die Männer fragen sich, ob Kjaskar noch das Zeug hat, unser Hetmann zu sein…</p>
+</blockquote>
+<blockquote>
+<p><em>Vor 6 Tagen:</em><br />
+<br />
+In der Nacht ist ein fürchterlicher Sturm durch das Waskirer Hochland gezogen – ich konnte das Wetterleuchten selbst hier oben in den Grauen Bergen noch sehen. Das Knistern in der Luft war förmlich greifbar. Dies war offenbar ein schlechtes Omen, denn Kjaskar war in den letzten Stunden wie von Sinnen. Wutausbrüche, wahnvolles Brabbeln in einer mir unbekannten Sprache und haltlose Anschuldigungen, dass wir ihn alle hintergehen oder verraten wollen. Ich glaube so langsam, er wurde verflucht!<br />
+<br />
+Die Männer haben ihn in der Nacht gefunden, als er die Stollen öffnen und Erz graben gehen wollte. Als sie ihn aufhalten wollten, hat er sie mit der Spitzhacke angegriffen. Es hat 6 Männer und Frauen gebraucht, um ihn ruhigzustellen. Wir haben ihn nun in der alten Schmiede auf der zweiten Sohle eingesperrt. Fjolnir und Tjalva halten Wache, damit er nichts Dummes anstellt. Auf Bitte von Jandra habe ich eine Versammlung der Ottajasko einberufen und wir haben Kjaskar einstimmig als unseren Hetmann abgewählt – zumindest bis wir wissen, was ihm zugestoßen ist. Wir haben beschlossen, Thure morgen zur Runajasko nach Olport zu schicken. Vielleicht kann uns einer der Gandmadr dabei helfen, herauszufinden von was oder wem Kjaskar verflucht wurde.</p>
+</blockquote>
+<blockquote>
+<p><em>Vor 5 Tagen:</em><br />
+<br />
+Die Ottajasko hat mich fast einstimmig zu unserem neuen Hetmann gewählt. Ich nehme diese ehrenvolle Aufgabe gerne, aber auch schweren Herzens an. Ich hoffe immer noch, dass Kjaskar erneut zu Sinnen kommt und seine alte Aufgabe wieder übernehmen kann. Ich habe angewiesen, stets zwei Wachen vor der alten Schmiede zu postieren.</p>
+</blockquote>
+<blockquote>
+<p><em>Vor 4 Tagen:</em><br />
+<br />
+Kjaskar hat seit über einem Tag kein Essen oder Trinken mehr angerührt. Die Wachen berichten, dass er konstant mit sich selbst redet und seit wenigen Stunden hören wir fürchterliche Schmerzensschreie und Hammerschläge aus der Schmiede. Ich weiß nicht, was er da drin macht und bin mir nicht sicher, ob ich es wirklich wissen will. Ich hoffe, Thure kehrt schnell mit einem der Gandmadr aus Olport zurück!</p>
+</blockquote>
+<blockquote>
+<p><em>Vor 3 Tagen:</em><br />
+<br />
+Die Wachen sind heute Morgen nicht zum Wechsel aus der Mine herausgekommen. Ich habe befohlen, den Eingang zuzusperren.Ich befürchte leider das schlimmste. Wir rüsten uns nun alle aus und werden unsere eigene Mine gleich gemeinsam betreten. Womit haben wir dieses Unglück nur verdient? Aber unsere Ottajasko ist stark und ich hoffe dass wir alle gemeinsam wieder Herr der Lage werden…</p>
+</blockquote>
+<p>Hinter dem toten Skalen befindet sich eine dicke eiserne Tür.
+Hinter der hören wir immer wieder Hammergeräusche.
+Vermutlich ist Kjaskar dort drin.</p>
+<p>Wir ziehen uns Ersteinmal zurück um uns zu beraten.
+Im Gang bekommen auch wir immer wieder das Gefühl, dass unten im Hauptgang etwas hilfreiches wäre.
+Wir gehen sogar bereits den Hauptweg ein Stück weiter hinunter ehe wir uns fragen ob wir das überhaupt wollen.
+Als uns allen auffällt, dass dies eventuell keine gute Idee ist verlassen wir fluchtartig die Mine.</p>
+<p>Außerhalb der Mine ist mittlerweile die Sonne untergegangen.
+Orik hat sich mit Raska im Langhaus einquartiert.
+Wir tauschen uns kurz mit ihm aus, jedoch scheinen wir noch mehr über Kjaskar herausfinden zu müssen.
+Die einzige alternative wäre, auf einen Gandmadr der Runajasko zu warten, aber das würde mindestens eine Woche dauern.
+Ob wir jedoch so viel Zeit haben wissen wir nicht.</p>
+<p>Wir wollen versuchen einen Blick in den Raum von Kjaskar zu erhaschen bevor wir weitere Schritte unternehmen.
+Als wir diesmal in die Mine gehen halten wir uns alle am Gürtel und beschließen uns zu Ohrfeigen, wenn wir auf die Idee kommen in die Tiefe zu steigen.</p>
+<p>Vor Kjaskars Raum angekommen hören wir keine Schläge mehr von innen.
+Er scheint jedoch unser herumschleichen gehört zu haben und spricht uns durch die Tür hindurch an.
+Er sagt seine toten Kameraden seinen ihm im Weg gewesen.
+Er würde uns alle gehen lassen wenn wir ihn in Ruhe lassen und ihm die Magiebegabte überlassen, die er spürt.
+Als ob wir Raska diesem Wahnsinnigen überlassen würden.</p>
+<p>Als wir nicht auf sein Angebot eingehen öffnet er die Tür, vermutlich um auch uns aus dem Weg zu bekommen.
+Der Verrückte hat seinen einen Arm durch einen Spitzhacke ersetzt.
+Wir gehen vorsichtig Rückwärts in den Gang hinein um nach draußen zu kommen.
+Mit diesem komischen Arm sollte er uns nicht folgen können.</p>
+<p>Kurz bevor wir ihn jedoch aus der Sicher verlieren sehen wir das er im Boden versinkt.
+Er scheint nicht nur verrückt, sondern auch irgendwie magisch begabt zu sein.
+Panisch ergreifen wir die Flucht und rennen los, sobald wir den Hauptgang erreichen.</p>
+<p>Nach wenigen Schritten, kurz vor der Abzweigung zum Aufenthaltsraum, beginnt sich der Boden zu bewegen.
+Eisernen stacheln wachsen heraus und versuchen uns am weiterlaufen zu hindern.
+Wir schaffen es mit vielen Stichen an ihnen vorbei und nach dem Aufenthaltsraum erscheinen auch keine Stacheln mehr.</p>
+<p>Sobald wir aus der Mine herauskommen rufen wir lautstark nach Orik und beginnen den Eingang zu verbarrikadieren.
+Obwohl direkt neben dem Mineneingang eine riesiger Haufen Gestein wäre sagt uns Ragna wir sollen lieber Holzbalken nutzen.
+Kurz darauf ist der Eingang verbarrikadiert.
+Uns fällt zudem etwas auf.
+Der magische Zapfhahn des Fass Met und der mit Leichen zugeschüttete See.
+Verträgt das Wesen etwa kein Wasser.</p>
+<p>Auf diese Annahme vertrauend rennen wir am Langhaus vorbei zum kleinen Bach Aldiar direkt hinter dem Haus.
+Wir waten auf der andere Seite und versuchen uns zu Überlegen wie wir weitermachen sollen.
+Noch bevor wir eine sinnvolle Idee haben hört Fjolnir etwas.
+Ein Hilfeschrei, aber direkt von oben aus dem Himmel.
+Nach wenigen Momenten können wir am Himmel etwas wie eine kleine Gewitterwolke ausmachen.
+Sie bewegt sich jedoch sehr komisch für eine Gewitterwolke.
+Kurz darauf können wir erkennen, dass oben aus der Wolke zwei Beine herausragen und zappeln.
+Die Richtung aus der die Wolke kam könnte zu Olport passen.
+Vielleicht ist dies der Gandmadr der Runajasko nach dem geschickt wurde.</p>
+<p>Die Wolke kommt immer näher und zischt mit einer großen Geschwindigkeit an uns vorbei.
+Vor uns im Bach gibt es ein Platschen und zwei Thorwaler landen darin, einer davon Kopfüber.
+Einer von ihnen ist Thure, der vermutlich letzte überlebende der Aldiasottajasko.
+Der andere stellt sich als Kjetil von der Runajasko in Olport vor.
+Wir berichten von unseren Erlebnissen und erst jetzt scheint er Thure auch ernst zu nehmen.
+Um näheres über unseren Gegner zu erfahren begeben wir uns mit Kjetil wieder vor den Mineneingang.</p>
+<p>Er muss dort einige Zauber sprechen, während dessen stabilisieren wir unsere Konstruktion weiter.
+Einige Minuten später kann er uns berichteten, dass Kjaskar wohl von einem Erzdämonen besessen ist.
+Vermutlich ist er einen Pakt mit dem Dämonen eingegangen.
+Um ihn zu vertreiben muss Kjetil ein Ritual vollführen und wir müssen Kjaskar dabei in seiner Nähe halten.
+Gleichzeitig darf Kjetil nicht von ihm angegriffen werden, da er sonst den Zauber nicht vollenden kann.</p>
+<p>Kjetil kann uns ebenfalls berichten, dass vermutlich der beiden Elemente die Kjaskar am wenigsten mag Wasser und Luft sind.
+Wir wählen uns daher den Aldiar als Ort für das Ritual.
+Um es zu unterstützen stellen wir zudem um den Ritualkreis allerlei Gaben die mit Wasser und Luft zusammenhängen.
+Wasser- und Metfässer, Rabenfedern, ein Blasebalg, ja wir erweitern sogar den Bach, dass er im Ritualkreis eine größere Fläche einnimmt.
+Zu guter Letzt dürfen natürlich auch Windbeutel nicht fehlen.
+Den Göttern scheint unser Tun zu gefallen, denn während unseren Vorbereitungen beginnt es leicht zu regnen.</p>
+<p>Als unsere Vorbereitungen abgeschlossen sind begibt sich Kjetil in einen kleinen zusätzlichen Ritualkreis und beginnt seine Vorbereitungen.
+Um Raska zu schützen stecken wir sie in ein Wasserfass und stellen dies neben Kjetil.
+Sie protestiert lautstark, will jedoch auch nicht unbedingt von einer Spitzhacke erwischt werden.
+Als nicht mehr zu tun ist bewegt sich Walkira plötzlich auf den Mineneingang zu.
+Kaum dort angekommen beginnt sie unsere Befestigungen abzureißen, fasst als wäre sie besessen.
+Fjolnir und Brand stürzen hinterher und versuchen sie aufzuhalten.
+Alle drei liefern sich dort eine Rangelei im Matsch.</p>
+<p>Sobald Kjaskars Spitzhacke das Tor vor der Mine durchdringen scheint Walkira wieder zu sich zu kommen.
+Alle drei rennen wieder in den Ritualkreis um Kjetil und Raska zu schützen.</p>
+<p>Kaum ist Kjaskar im Ritualkreis, versuchen wir ihn mit Seilen festzuhalten, was jedoch nicht wirklich gelingt.
+Von der Schlacht selbst bekomme ich nichts mehr mit, da ich mir angeblich mein eigenes Schwert in meinen linken Arm geschlagen habe und zu Boden gehe.
+Im Nachhinein wurde mir nur erzählt, dass Kjaskar vier Flammenwesen beschworen hat und Ragna fast alle davon alleine erlegte.
+Brand, Orik, Walkira und Fjolnir setzen Kjaskar wohl sehr zu.</p>
+<p>Als ich wieder zu mir komme ist der Kampf fast vorbei.
+Kjetil spricht gerade die letzten Worte seines Rituals.
+Aus Kjaskar löst sich ein durchsichtiges Wesen und wird in den kleinen Ritualkreis mir Kjetil eingesogen.
+Kjaskar selbst fällt tot in den Aldiar.</p>
+<p>Nachdem wir sicher sind das der Kampf vorbei ist begeben wir uns alle in das Gasthaus um unsere Wunden zu versorgen.
+Wir finden dort auch Thure, der sich scheinbar völlig betrunken hat.
+Von Kjetil erfahren wir, dass es wohl gar keine Möglichkeit gab Kjaskar zu retten.
+Jedoch haben wir seine Seele wohl vor den Erzdämonen Agrimoth bewahrt.</p>
+<p>An diesem Tag steigen wir nochmals in die Mine hinab und sind beruhigt keine Stimmen mehr zu hören.
+Am Ende der Mine finden wir einige sehr gerade Schächte in denen Kjaskar wohl das neue Eisenerz gefunden hat.
+In einem davon liegen auch die Leichen von 7 Kindern.
+Damit ist Thure der wohl einzige Überlebende der Aldiasottajasko.
+Wir verbringen den Rest des Tages damit die Toten zu bestatten.</p>
+<p>Am nächsten morgen bricht Kjetil wieder zur Runajasko auf.
+Er nimmt Thure mit sich, da dieser nicht mehr ansprechbar ist, nachdem er vom Tod seiner Tochter erfahren hat.
+Kjetil fragt Raska ob sie denn schon einmal geflogen ist und sie schließt sich ihm sofort an.
+Wenige Minuten später werden alle drei von einer Gewitterwolke abgeholt und fliegen davon.</p>
+<p>Wir selbst beschließen ebenfalls nach Olport aufzubrechen, wenn auch auf normalem Weg.
+Zum einen möchten wir von dort Nachricht nach Storsjen senden, dass diese vom Schicksal der Aldiasottajasko erfahren.
+Zum anderen hat uns Kjetil angeboten und noch etwas mehr über Erzdämonen und was gestern passiert ist zu erzählen.
+Und natürlich möchten wir Raska in ihrer neuen Schule besuchen.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="01_we_fear_this_night.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="02_grey_mountains_cold.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="01_we_fear_this_night.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="02_grey_mountains_cold.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
