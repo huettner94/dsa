@@ -17,3 +17,4 @@
 - [Godsögnsvanir](./03_godsoegnsvanir.md)
 - [Throw a boat at the whaler](./03_throw_a_boat_at_the_whaler.md)
 - [Bei den Sturmvögeln](./03_bei_den_sturmvoegeln.md)
+- [Rescue us](./03_rescue_us.md)
